@@ -1,6 +1,8 @@
 # Dhanvanthraya
        Dhanvanthraya– A Mobile Application based on Ayurvedic medicine for Symptom-based diagnosis(Under Development)
-       Dhanvanthraya is an Android app designed to provide users with a comprehensive set of features focusing on Ayurvedic health solutions. It combines disease prediction, Prakruthi assessment, location-based services for finding Ayurveda pharmacies and clinics, and medication history tracking.
+       
+       
+Dhanvanthraya is an Android app designed to provide users with a comprehensive set of features focusing on Ayurvedic health solutions. It combines disease prediction, Prakruthi assessment, location-based services for finding Ayurveda pharmacies and clinics, and medication history tracking.
 
 Features:
 1. Disease Prediction Chatbot:
