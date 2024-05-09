@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "37803077301",
+    "project_id": "resolute-74548",
+    "storage_bucket": "resolute-74548.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37803077301:android:f9836d14272689299b58fc",
+        "android_client_info": {
+          "package_name": "swetha.assignment.resolute"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWbmAAY2kI1u-HB67UrD37HaHxEe_WWsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37803077301:android:105607331f3370389b58fc",
+        "android_client_info": {
+          "package_name": "swetha.sample.ayushokya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWbmAAY2kI1u-HB67UrD37HaHxEe_WWsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

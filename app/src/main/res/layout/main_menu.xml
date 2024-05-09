@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="swetha.sample.dhanvanthraya.ui.MainMenu">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/mainmenuimg"
+       android:fillViewport="true"
+       android:paddingVertical="210dp"
+       android:paddingHorizontal="39dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical"
+               android:layout_marginBottom="60dp"
+               android:orientation="horizontal">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center_vertical"
+                   android:orientation="horizontal">
+
+                   <LinearLayout
+                       android:layout_width="120dp"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/chatbot"
+                       android:background="@drawable/purplebutton"
+                       android:paddingVertical="44dp"
+                       android:paddingHorizontal="6dp"
+                       android:orientation="vertical"
+                       android:clickable="true"
+                       android:focusable="true">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="match_parent"
+                           android:textColor="#000000"
+                           android:textSize="16sp"
+                           android:layout_weight="1"
+                           android:text="@string/chat_with_dhavanthraya">
+                       </TextView>
+                   </LinearLayout>
+
+                   <View
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_weight="1">
+                   </View>
+
+                   <LinearLayout
+                       android:layout_width="120dp"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/shopsnearby"
+                       android:background="@drawable/purplebutton"
+                       android:paddingTop="17dp"
+                       android:paddingBottom="7dp"
+                       android:paddingHorizontal="14dp"
+                       android:paddingVertical="10dp"
+                       android:orientation="vertical">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:textSize="16sp"
+                           android:paddingTop="14dp"
+                           android:paddingBottom="14dp"
+                           android:textColor="#000000"
+                           android:layout_weight="1"
+                           android:text="@string/ayurveda_doctors_and_medicine_shops_near_you">
+
+                       </TextView>
+                   </LinearLayout>
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical"
+               android:layout_marginBottom="60dp"
+               android:orientation="horizontal">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center_vertical"
+                   android:orientation="horizontal">
+
+                   <LinearLayout
+                       android:layout_width="120dp"
+                       android:layout_height="125dp"
+                       android:background="@drawable/purplebutton"
+                       android:paddingVertical="31dp"
+                       android:paddingHorizontal="14dp"
+                       android:orientation="vertical"
+                       android:paddingTop="17dp"
+                       android:paddingBottom="7dp"
+                       android:id="@+id/medicationhisbtn">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:layout_weight="5"
+                           android:text="@string/your_medication_history"
+                           android:textColor="#000000"
+                           android:textSize="16sp">
+
+                       </TextView>
+                   </LinearLayout>
+
+                   <View
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_weight="1">
+                   </View>
+
+                   <LinearLayout
+                       android:layout_width="120dp"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/purplebutton"
+                       android:paddingTop="40dp"
+                       android:id="@+id/prakrutibtn"
+                       android:paddingBottom="42dp"
+                       android:paddingHorizontal="14dp"
+                       android:orientation="vertical">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="match_parent"
+                           android:textSize="16sp"
+                           android:textColor="#000000"
+                           android:layout_weight="1"
+                           android:text="@string/prakruti_assessment">
+
+                       </TextView>
+                   </LinearLayout>
+               </LinearLayout>
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+   </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

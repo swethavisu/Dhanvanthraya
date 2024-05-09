@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="swetha.sample.dhanvanthraya.ui.MedicationHistory"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:id="@+id/rq3u"
+        android:layout_weight="1"
+        android:background="#FCE4BE"
+        android:paddingBottom="197dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFBF9F88"
+                android:paddingTop="23dp"
+                android:paddingBottom="17dp"
+                android:paddingHorizontal="7dp"
+                android:layout_marginBottom="29dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:text="Medication History"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace">
+
+                </TextView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="14dp"
+                android:layout_marginHorizontal="19dp"
+                android:text="Yesterday - Wednesday, May 8, 2024">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/r6wv"
+                android:background="@drawable/green_border"
+                android:paddingHorizontal="16dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="40dp"
+                android:layout_marginHorizontal="16dp"
+                android:elevation="4dp"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:textColor="#000000"
+                            android:textSize="15sp"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:text="Viral Fever\n\nSymptoms: Fever, Cold, cough, runny nose, Joint pain.\n\nMedication: Punarnavadi Kashayam.">
+                        </TextView>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="2:37 pm"
+                        android:id="@+id/rxod"
+                        android:textColor="#9F9F9F"
+                        android:textSize="13sp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginEnd="3dp">
+                    </TextView>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="14dp"
+                android:layout_marginHorizontal="19dp"
+                android:text="Tuesday, May 7, 2024">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/green_border"
+                android:id="@+id/seasflu"
+                android:paddingTop="16dp"
+                android:paddingBottom="40dp"
+                android:paddingHorizontal="15dp"
+                android:layout_marginHorizontal="16dp"
+                android:elevation="4dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:text="Seasonal Flu\n\nSymptoms: Fever, chills, muscle aches, fatigue, runny nose, headache.\n\nMedication:Sitopaladi Churna ">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="18dp"
+                android:layout_marginHorizontal="19dp"
+                android:text="Monday, May 6, 2024">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/green_border"
+                android:id="@+id/commoncold"
+                android:paddingTop="16dp"
+                android:paddingBottom="40dp"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="16dp"
+                android:elevation="4dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_weight="1"
+                    android:text="Tiredness\n\nSymptoms: fatigue.\n\nMedication: ">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

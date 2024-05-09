@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Dhanvanthraya</string>
+    <string name="this_is_a_sample_message_that_will_appear">This is a sample message that will appear</string>
+    <string name="send">Send</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="Dhanvanthraya">Dhanvanthraya</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_login_using_mobile_number">Or Login using Mobile Number</string>
+    <string name="not_yet_registered_signup">Not yet registered?Signup</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_an_user_login">Already an user? login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_signup">Email</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="forget_password">Forget password</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="chat_with_dhavanthraya">Chat with Dhavanthraya</string>
+    <string name="ayurveda_doctors_and_medicine_shops_near_you">Ayurveda clinics and pharmacies near you</string>
+    <string name="your_medication_history">Your Medication History</string>
+    <string name="prakruti_assessment">Prakruti Assessment</string>
+    <string name="your_history">Your History</string>
+    <string name="developed_by_swetha">Developed by Batch 13</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

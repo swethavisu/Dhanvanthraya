@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="swetha.sample.dhanvanthraya.ui.PrakrutiAssessment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BF9F88"
+        android:padding="23dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/prakruti_assessment"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:id="@+id/prakruti_assess">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_layout_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E4E4E4"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/paeditMessage"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:background="@drawable/green_border"
+            android:backgroundTint="@android:color/white"
+            android:hint="@string/type_a_message"
+            android:inputType="textShortMessage"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#757575"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/pabtnSend"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#F6A68D"
+            android:text="@string/send"
+            android:textColor="#384744" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pachatView"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_above="@id/ll_layout_bar"
+        tools:itemCount="20"
+        tools:listitem="@layout/message_item"
+        android:background="#FCE4BE"> </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="To begin, type start or I'm ready"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>

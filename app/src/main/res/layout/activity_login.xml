@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginimg"
+    tools:context="swetha.sample.dhanvanthraya.authentication.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="250dp"
+                android:padding="15dp">
+
+
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/login_email"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/green_border"
+                    android:padding="8dp"
+                    android:hint="@string/email"
+                    android:drawableStart="@drawable/baseline_email_24"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/grey"
+                    android:layout_gravity="center"
+                    android:autofillHints="emailAddress"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/login_password"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/green_border"
+                    android:padding="8dp"
+                    android:hint="@string/password"
+                    android:drawableStart="@drawable/baseline_lock_24"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/grey"
+                    android:layout_gravity="center"
+                    android:autofillHints="password" />
+
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/login"
+                    android:id="@+id/login_button"
+                    android:textSize="18sp"
+                    android:textColor="#384744"
+                    app:cornerRadius = "30dp"
+                    android:backgroundTint="#BF9F88"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/forgot_password"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:padding="8dp"
+                    android:text="@string/forgot_password"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/signupRedirectText"
+                    android:text="@string/not_yet_registered_signup"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:layout_marginTop="14dp"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
